@@ -11,12 +11,9 @@ import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
-import {MatLegacyButtonModule as MatButtonModule} from '@angular/material/legacy-button';
-import {MatLegacyInputModule as MatInputModule} from '@angular/material/legacy-input';
+
 import {MatRippleModule} from '@angular/material/core';
-import {MatLegacyFormFieldModule as MatFormFieldModule} from '@angular/material/legacy-form-field';
-import {MatLegacyTooltipModule as MatTooltipModule} from '@angular/material/legacy-tooltip';
-import {MatLegacySelectModule as MatSelectModule} from '@angular/material/legacy-select';
+
 
 @NgModule({
   imports: [
